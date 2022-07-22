@@ -1,9 +1,7 @@
 .header {
     border: 1px solid red;
-    margin-top: 2.19%;
-    margin-left: 3.75%;
-    margin-right: 3.75%;
-    max-width: 1184px;
-    min-width: 288px;
+    margin-top: 28px;
+    margin: auto;
+    width: 1184px;
     position: relative;
 }
