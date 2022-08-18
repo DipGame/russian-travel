@@ -1,6 +1,9 @@
 .footer {
     background-color: #2A2C2F;;
-    margin: 0 auto;
+    margin: 92px auto 0;
+    padding-bottom: 24px;
     color: #FFFFFF;
-    
+    width: 1184px;
+    display: flex;
+    flex-direction: row;
 }

@@ -1,8 +1,13 @@
 .place {
     border: 1px solid blue;
-    width: 984px;
+    margin-bottom: 80px;
+    max-width: 984px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, min-content);
+    grid-template-columns: repeat(auto-fit, minmax(288px, 470px));
     gap: 48px 40px;
+    justify-content: center;
+}
+
+.place:last-of-type {
+    margin-bottom: 0;
 }

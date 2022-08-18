@@ -1,9 +1,8 @@
 .cover__overlay {
-    border: 1px solid blue;
     background-color: black;
     background-size: contain;
     position: absolute;
     width: 1184px;
-    height: 77%;
+    height: 640px;
     opacity: 0.3;
 }   
