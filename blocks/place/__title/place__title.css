@@ -1,4 +1,7 @@
 .place__title {
+    border: 1px solid red;
+    margin: 0;
+    justify-items: stretch;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
