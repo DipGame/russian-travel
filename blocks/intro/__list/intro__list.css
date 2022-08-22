@@ -1,8 +1,15 @@
 .intro__list {
-    margin-top: 33px;
+    margin 0;
     font-size: 12px;
-    line-height: 18px;
     font-weight: 400;
     font-family: 'Inter';
     font-style: normal;
+}
+
+.intro__list:first-of-type {
+    margin-top: 33px;
+}
+
+.intro__list:last-of-type {
+    margin-bottom: 92px;
 }
