@@ -3,7 +3,7 @@
     margin: 92px auto 0;
     padding-bottom: 24px;
     color: #FFFFFF;
-    width: 1184px;
+    max-width: 1184px;
     display: flex;
     flex-direction: row;
 }

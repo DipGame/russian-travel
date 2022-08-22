@@ -1,7 +1,11 @@
+li {
+    list-style-type: none;
+}
+
 .intro__list {
     margin: 0;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: Regular;
     font-family: 'Inter';
     font-style: normal;
 }
