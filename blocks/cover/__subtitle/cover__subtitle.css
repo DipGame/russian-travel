@@ -3,10 +3,11 @@
     max-width: 360px;
     color: #FFFFFF;
     margin-top: 32px;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-family: 'Inter';
-    font-style: normal;
-    font-weight: regular;
-    line-height: 22px;
+    font-style:  regular;
+    font-weight: 400;
+    font-display: swap;
+    line-height: 1.2;
     text-align: center;
 }

@@ -1,3 +1,15 @@
+@media screen and  (max-width: 699px) {
+    .cover h2{
+        font-size: 2rem;
+        max-width: 288px;
+    }
+    .cover h3{
+        font-size: 0.9rem;
+        max-width: 288px;
+        margin-top: 16px;
+    }
+}
+
 .cover {
     max-width: 1184px;
     min-height: 740px;
@@ -7,17 +19,13 @@
     align-items: center;
     justify-content: center;
     position: relative;
+	text-decoration: none;
 }
 
-.cover::after {
-	content: '';
-	display: block;
+.cover:hover::after {
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color:rgba(0, 0, 0, .3);
+	content: '';
+	background: rgba(0, 0, 0, 0.3);
 }

@@ -1,3 +1,25 @@
+@media screen and (max-width: 699px) {
+    .footer a {
+        font-size: 1.5rem;
+        margin-bottom: 32px;
+    }
+    .footer nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer p {
+        margin: 16px 0 0;
+    }
+}
+
+@media (max-width: 699px) {
+    .footer {
+        display: flex;
+        width: 288px;
+        flex-wrap: wrap;
+    }
+}
+
 .footer {
     background-color: #2A2C2F;
     margin: 92px auto 0;
