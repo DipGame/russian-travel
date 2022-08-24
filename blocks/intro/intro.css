@@ -1,6 +1,41 @@
+@media (min-width: 928px) and (max-width: 1024px) {
+    .intro {
+        width: 928px;
+    }
+}
+
+@media (max-width: 928px) {
+    .intro {
+        max-width: 928px;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 928px) {
+    .intro {
+        width: 720px;
+    }
+}
+
+@media (max-width: 720px) {
+    .intro {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 699px) {
+    .intro {
+        width: 288px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .intro h2 {
+        font-size: 2rem;
+    }
+}
+
 .intro {
     color: #ffffff;
-    margin-top: 98px;
-    margin-left: 148px;
-    max-width: 690px;
+    margin: 98px auto 0;
+    max-width: 984px;
 }

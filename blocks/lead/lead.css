@@ -1,3 +1,51 @@
+@media screen and  (max-width: 699px) {
+    .lead h1{
+        font-size: 2.5rem;
+        max-width: 288px;
+    }
+    .lead h2{
+        font-size: 1rem;
+        max-width: 288px;
+        margin-top: 16px;
+    }
+}
+
+@media screen and (min-width: 699px) and (max-width: 1024px) {
+    .lead img {
+        margin-top: 56px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .lead img {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .lead p{
+        margin-left: 16px;
+    }
+}
+
+@media (min-width: 928px) and (max-width: 1024px) {
+    .lead {
+        width: 928px;
+    }
+}
+
+@media (min-width: 699px) and (max-width: 928px) {
+    .lead {
+        max-width: 928px;
+    }
+}
+
+@media (max-width: 699px) {
+    .lead {
+        width: 320px;
+    }
+}
+
 .lead {
     margin: 56px auto 0;
     max-width: 984px;

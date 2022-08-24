@@ -2,18 +2,20 @@ li {
     list-style-type: none;
 }
 
+ul {
+    padding-left: 0;
+  }
+
 .intro__list {
     margin: 0;
-    font-size: 12px;
-    font-weight: regular;
+    font-size: 0.75rem;
+    line-height: 1.5;
     font-family: 'Inter';
-    font-style: normal;
+    font-style:  black;
+    font-weight: 700;
+    font-display: swap;
 }
 
 .intro__list:first-of-type {
     margin-top: 33px;
-}
-
-.intro__list:last-of-type {
-    margin-bottom: 92px;
 }

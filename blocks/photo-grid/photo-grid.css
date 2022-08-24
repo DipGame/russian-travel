@@ -1,3 +1,33 @@
+@media (min-width: 928px) and (max-width: 1024px) {
+    .photo-grid {
+        width: 928px;
+    }
+}
+
+@media (max-width: 928px) {
+    .photo-grid {
+        max-width: 928px;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 928px) {
+    .photo-grid {
+        width: 720px;
+    }
+}
+
+@media (max-width: 720px) {
+    .photo-grid {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 699px) {
+    .photo-grid {
+        width: 288px;
+    }
+}
+
 .photo-grid {
     max-width: 1184px;
     margin: auto;
