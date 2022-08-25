@@ -1,11 +1,10 @@
 .place__website {
-    margin: 0;
+    margin: 0 0 12px;
     font-family: 'Inter';
     font-style:  regular;
     font-weight: 400;
     font-display: swap;
-    font-size: 1.1rem;
-    line-height: 1.2;
+    font-size: 0.8rem;
+    line-height: 0.5;
     color: #aaaaaa;
-    align-self: end;
 }

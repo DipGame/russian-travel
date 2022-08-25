@@ -4,11 +4,11 @@
     font-style:  regular;
     font-weight: 400;
     font-display: swap;
-    line-height: 1.6;
-    font-size: 1.1rem;
+    line-height: 1.63;
+    font-size: 1.12rem;
     color: #ffffff;
 }
 
 .place__paragraph:first-of-type {
-    margin-bottom: 26px;
+    margin-bottom: 31px;
 }

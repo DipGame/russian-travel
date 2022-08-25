@@ -1,14 +1,35 @@
 @media screen and (max-width: 699px) {
     .footer a {
         font-size: 1.5rem;
-        margin-bottom: 32px;
+        margin-bottom: 30px;
     }
     .footer nav {
         display: flex;
         flex-direction: column;
     }
     .footer p {
-        margin: 16px 0 0;
+        margin: 13px 0 0;
+    }
+}
+
+@media (min-width: 1025px) {
+    .footer {
+        width: 930px;
+        margin: 92px auto 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer {
+        width: 930px;
+        margin: 92px auto 0;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 768px) {
+    .footer {
+        width: 720px;
+        margin: 92px auto 0;
     }
 }
 
@@ -17,12 +38,12 @@
         display: flex;
         width: 288px;
         flex-wrap: wrap;
+        margin: 65px auto 0;
     }
 }
 
 .footer {
     background-color: #2A2C2F;
-    margin: 92px auto 0;
     padding-bottom: 24px;
     color: #FFFFFF;
     max-width: 1184px;

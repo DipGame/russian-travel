@@ -1,20 +1,37 @@
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 720px) {
     .header img {
         width: 142px;
     }
     .header a {
-        font-size: 1.1rem;
+        font-size: 1.17rem;
+        margin-right: 0;
+        margin-bottom: 2px;
+    }
+    .header a:first-of-type {
+        right: 40px;
     }
 }
 
-@media (max-width: 699px) {
+@media (min-width: 928px) and (max-width: 1024px) {
+    .header {
+        width: 928px;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 928px) {
+    .header {
+        width: 720px;
+    }
+}
+
+@media (max-width: 719px) {
     .header {
         width: 288px;
     }
 }
 
 .header {
-    margin: 28px auto 0;
+    margin: 28px auto 56px;
     max-width: 1184px;
     position: relative;
 }

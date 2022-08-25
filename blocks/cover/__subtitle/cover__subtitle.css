@@ -2,12 +2,12 @@
     z-index: 2;
     max-width: 360px;
     color: #FFFFFF;
-    margin-top: 32px;
-    font-size: 1.1rem;
+    margin-top: 30px;
+    font-size: 1.13rem;
     font-family: 'Inter';
     font-style:  regular;
     font-weight: 400;
     font-display: swap;
-    line-height: 1.2;
+    line-height: 1.25;
     text-align: center;
 }

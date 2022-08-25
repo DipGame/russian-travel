@@ -1,23 +1,59 @@
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .cover h2 {
+        margin:  195px 0 0;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 768px) {
+    .cover h2 {
+        margin:  114px 0 0;
+    }
+}
+
 @media screen and  (max-width: 699px) {
     .cover h2{
         font-size: 2rem;
-        max-width: 288px;
+        width: 250px;
+        margin-top: 35px;
     }
     .cover h3{
         font-size: 0.9rem;
-        max-width: 288px;
+        line-height: 1.1;
+        width: 290px;
         margin-top: 16px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .cover {
+        height: 740px;
+    }
+}
+
+@media (min-width: 928px) and (max-width: 1024px) {
+    .cover {
+        height: 640px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 927px) {
+    .cover {
+        height: 480px;
+    }
+}
+
+@media (max-width: 720px) {
+    .cover {
+        height: 200px;
     }
 }
 
 .cover {
     max-width: 1184px;
-    min-height: 740px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     position: relative;
 	text-decoration: none;
 }
