@@ -14,7 +14,7 @@
 
 @media (min-width: 1025px) {
     .footer {
-        width: 930px;
+        width: 100%;
         margin: 92px auto 0;
     }
 }
