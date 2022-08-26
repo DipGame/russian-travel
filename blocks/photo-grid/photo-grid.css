@@ -1,11 +1,11 @@
-@media (min-width: 1025px) {
+@media (min-width: 1221px) {
     .photo-grid {
         width: 1184px;
         gap: 16px;
     }
 }
 
-@media (min-width: 928px) and (max-width: 1024px) {
+@media (min-width: 928px) and (max-width: 1220px) {
     .photo-grid {
         width: 928px;
         gap: 16px;
