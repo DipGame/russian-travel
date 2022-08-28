@@ -1,18 +1,31 @@
 .header__lang-link {
     color: white;
-    position: absolute;
-    font-family: 'Inter';
-    font-style:  regular;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-display: swap;
     font-size: 1.5rem;
     line-height: 1.2;
-    right: 0;
-    bottom: 6px;
     text-decoration: none;
+    margin-right: 18px;
 }
 
-.header__lang-link:nth-of-type(1) {
-    right: 47px;
-    text-decoration: underline;
+.header__lang-link:last-of-type {
+    margin-right: 0;
+}
+
+.header__lang-link:hover {
+	opacity: 0.8;
+}
+
+@media screen and (min-width: 1025px) {
+    .header__lang-link {
+        align-self: flex-end;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .header__lang-link {
+        font-size: 1.17rem;
+        margin-right: 0;
+        margin-bottom: 2px;
+    }
 }

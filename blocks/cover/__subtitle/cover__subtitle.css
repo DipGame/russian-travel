@@ -2,12 +2,19 @@
     z-index: 2;
     max-width: 360px;
     color: #FFFFFF;
-    margin-top: 30px;
+    margin: 32px 0 0;
     font-size: 1.13rem;
-    font-family: 'Inter';
-    font-style:  regular;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-display: swap;
-    line-height: 1.25;
+    line-height: 22px;
     text-align: center;
+}
+
+@media screen and  (max-width: 699px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 1.14;
+        width: 288px;
+        margin-top: 16px;
+    }
 }

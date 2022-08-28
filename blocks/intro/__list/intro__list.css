@@ -1,19 +1,10 @@
-li {
-    list-style-type: none;
-}
-
-ul {
-    padding-left: 0;
-  }
-
 .intro__list {
     margin: 0;
     font-size: 0.75rem;
     line-height: 1.5;
-    font-family: 'Inter';
-    font-style:  black;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 700;
-    font-display: swap;
+    list-style-type: none;
 }
 
 .intro__list:first-of-type {

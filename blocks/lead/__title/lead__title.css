@@ -3,9 +3,28 @@
     max-width: 720px;
     font-size: 6rem;
     text-align: center;
-    line-height: 1.01;
-    font-family: 'Inter';
-    font-style:  bold;
+    line-height: 100px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 900;
-    font-display: swap;
+}
+
+@media screen and (min-width: 1025px) {
+    .lead__title {
+        margin: 0 auto 0;
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+    .lead__title {
+        margin: 0 auto 0;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .lead__title {
+        font-size: 2.5rem;
+        max-width: 288px;
+        margin: 0 auto 0;
+        line-height: 1.1;
+    }
 }

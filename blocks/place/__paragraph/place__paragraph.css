@@ -1,14 +1,26 @@
 .place__paragraph {
-    margin: 0;
-    font-family: 'Inter';
-    font-style:  regular;
+    margin: 0 0 26px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-display: swap;
     line-height: 1.63;
-    font-size: 1.12rem;
+    font-size: 18px;
     color: #ffffff;
 }
 
-.place__paragraph:first-of-type {
-    margin-bottom: 31px;
+.place__paragraph:last-of-type {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 720px) and (max-width: 927px) {
+    .place__paragraph {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 719px) {
+    .place__paragraph {
+        font-size: 1rem;
+        margin-left: 16px;
+        width: 288px;
+    }
 }

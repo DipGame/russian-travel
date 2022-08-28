@@ -1,77 +1,6 @@
-@media screen and (min-width: 1025px) {
-    .lead h1 {
-        margin: 0 auto 0;
-    }
-    .lead img {
-        margin: 60px auto 0;
-    }
-    .lead p {
-        margin-top: 6px;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .lead h1 {
-        margin: -9px auto 0;
-    }
-    .lead img {
-        margin: 53px auto 0;
-    }
-    .lead h2 {
-        font-size: 1.9rem;
-        width: 600px;
-    }
-    .lead p {
-        margin-top: 4px;
-        font-size: 0.75rem;
-    }
-}
-
-@media screen and (max-width: 720px) {
-    .lead h1 {
-        font-size: 2.5rem;
-        max-width: 288px;
-        margin: -10px auto 0;
-        line-height: 1.1;
-    }
-    .lead h2 {
-        font-size: 1rem;
-        max-width: 288px;
-        margin-top: 16px;
-    }
-    .lead img {
-        margin-top: 36px;
-    }
-    .lead p {
-        font-size: 0.79rem;
-        margin-top: 5px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 927px) {
-    .lead p {
-        margin-left: 24px;
-        margin-top: 1px;
-        font-size: 0.8rem;
-    }
-    .lead h1 {
-        margin: -10px auto 0;
-    }
-    .lead img {
-        margin: 55px auto 0;
-    }
-}
-
-@media screen and (min-width: 721px) and (max-width: 767px) {
-    .lead p {
-        margin-left: 24px;
-    }
-}
-
-@media screen and (max-width: 720px) {
-    .lead p {
-        margin-left: 16px;
-    }
+.lead {
+    margin: 0 auto 0;
+    max-width: 984px;
 }
 
 @media (min-width: 928px) and (max-width: 1024px) {
@@ -88,7 +17,7 @@
 
 @media (min-width: 721px) and (max-width: 767px) {
     .lead {
-        max-width: 768px;
+        width: 720px;
     }
 }
 
@@ -96,9 +25,4 @@
     .lead {
         width: 320px;
     }
-}
-
-.lead {
-    margin: 0 auto 0;
-    max-width: 984px;
 }

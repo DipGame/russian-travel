@@ -1,0 +1,12 @@
+.footer__navigation {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 719px) {
+    .footer__navigation {
+        width: 288px;
+        flex-direction: column;
+    }
+}

@@ -1,12 +1,14 @@
-.place__website-white {
+.place__website-link {
     color: #ffffff;
     text-decoration: underline;
-    font-family: 'Inter';
-    font-style:  regular;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-display: swap;
     font-size: 1.1rem;
     line-height: 1.2;
     align-self: end;
     justify-self: end;
+}
+
+.place__website-link:hover {
+    opacity: 0.8;
 }

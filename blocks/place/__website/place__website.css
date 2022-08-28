@@ -1,10 +1,10 @@
 .place__website {
     margin: 0 0 12px;
-    font-family: 'Inter';
-    font-style:  regular;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     font-weight: 400;
-    font-display: swap;
-    font-size: 0.8rem;
-    line-height: 0.5;
+    font-size: 12px;
+    line-height: 1;
     color: #aaaaaa;
 }

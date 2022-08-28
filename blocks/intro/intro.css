@@ -1,48 +1,30 @@
-@media screen and (max-width: 720px) {
-    .intro h2{
-        font-size: 2rem;
-        width: 250px;
-    }
-    .intro p{
-        width: 288px;
-        line-height: 1.63;
-    }
+.intro {
+    color: #ffffff;
+    max-width: 690px;
 }
 
 @media (min-width: 1025px) {
     .intro {
-        margin: 89px 148px 92px;
+        margin: 92px 148px 92px;
     }
 }
 
 @media (min-width: 928px) and (max-width: 1024px) {
     .intro {
-        margin: 89px 48px 92px;
+        margin:92px 48px 92px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 927px) {
+@media (min-width: 721px) and (max-width: 927px) {
     .intro {
         width: 720px;
-        margin: 87px 24px 88px;
-    }
-}
-
-@media (min-width: 721px) and (max-width: 767px) {
-    .intro {
-        max-width: 768px;
-        margin: 98px 24px 88px;
+        margin: 88px 24px 88px;
     }
 }
 
 @media (max-width: 720px) {
     .intro {
         width: 288px;
-        margin: 60px auto 64px;
+        margin: 64px auto 64px;
     }
-}
-
-.intro {
-    color: #ffffff;
-    max-width: 690px;
 }
