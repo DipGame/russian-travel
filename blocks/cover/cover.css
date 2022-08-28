@@ -24,7 +24,7 @@
 	background: rgba(42, 44, 47, 0.8);
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1025px) {
     .cover {
         min-height: 740px;
     }
