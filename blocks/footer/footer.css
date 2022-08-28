@@ -11,6 +11,12 @@
 @media (min-width: 1025px) {
     .footer {
         width: 100%;
+    }
+}
+
+@media (min-width: 930px) {
+    .footer {
+        width: 930px;
         margin: 92px auto 0;
     }
 }
@@ -18,7 +24,6 @@
 @media (min-width: 930px) and (max-width: 1024px) {
     .footer {
         width: 930px;
-        margin: 92px auto 0;
     }
 }
 
@@ -34,6 +39,6 @@
         width: 288px;
         flex-wrap: wrap;
         margin: 64px auto 0;
-        min-height: 310px;
+        gap: 48px;
     }
 }

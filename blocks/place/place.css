@@ -11,6 +11,11 @@
     .place {
         grid-template-columns: repeat(auto-fit, minmax(min-content, 463px));
         gap: 48px 40px;
+    }
+}
+
+@media (min-width: 928px) {
+    .place {
         margin-bottom: 80px;
     }
 }
@@ -19,7 +24,6 @@
     .place {
         grid-template-columns: repeat(auto-fit, minmax(min-content, 440px));
         gap: 49px 32px;
-        margin-bottom: 80px;
     }
 }
 

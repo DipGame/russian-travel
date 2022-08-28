@@ -2,19 +2,7 @@
     margin: 0;
 }
 
-@media screen and (min-width: 1025px) {
-    .place__website-container {
-        align-self: flex-end;
-    }
-}
-
-@media screen and (min-width: 928px) and (max-width: 1024px) {
-    .place__website-container {
-        align-self: flex-end;
-    }
-}
-
-@media screen and (min-width: 720px) and (max-width: 927px) {
+@media screen and (min-width: 720px) {
     .place__website-container {
         align-self: flex-end;
     }

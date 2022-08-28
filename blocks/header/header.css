@@ -13,6 +13,11 @@
 @media (min-width: 928px) and (max-width: 1024px) {
     .header {
         width: 928px;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 1024px) {
+    .header {
         margin: 28px auto 48px;
     }
 }
@@ -20,7 +25,6 @@
 @media (min-width: 720px) and (max-width: 928px) {
     .header {
         width: 720px;
-        margin: 28px auto 48px;
     }
 }
 
