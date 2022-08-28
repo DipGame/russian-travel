@@ -3,6 +3,12 @@
     position: relative;
 }
 
+@media (min-width: 721px) {
+    .cover {
+        margin: 0 auto 92px;
+    }
+}
+
 @media (max-width: 720px) {
     .cover {
         margin: 0 auto 64px;

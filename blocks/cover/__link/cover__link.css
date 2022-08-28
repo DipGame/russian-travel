@@ -21,7 +21,6 @@
 }
 
 .cover__link:hover::after {
-	height: 100%;
 	position: absolute;
 	content: '';
 	background: rgba(42, 44, 47, 0.8);
@@ -30,12 +29,6 @@
 @media (min-width: 1025px) {
     .cover__link {
         min-height: 740px;
-    }
-}
-
-@media (min-width: 721px) {
-    .cover__link {
-        margin: 0 auto 92px;
     }
 }
 
