@@ -21,8 +21,6 @@
 }
 
 .cover__link:hover::after {
-	position: absolute;
-	content: '';
 	background: rgba(42, 44, 47, 0.8);
 }
 
